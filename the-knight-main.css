@@ -1,0 +1,73 @@
+#head1 {
+    width:100%;
+}
+/* שורת עליונה */
+.lineup {
+    width: 100%;
+    height: 20px;
+    border-width: 10px;
+    list-style-type: none;
+    display: inline-block;
+    background: #6b648a;
+    padding: 3px 10px;
+    
+    font-weight: 200;
+    text-align:right;
+}
+.lineup1 {
+    padding: 30px;
+    /*
+    border-radius: 0 0 10px 10px;
+    */
+}
+
+p {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+#story {
+text-align:right;
+}
+#faq {
+    text-align:center;
+    
+}
+.shop {
+  /**  text-align:center;
+    position: relative;
+    float:left; **/ 
+    position: absolute;
+left: 19%;
+bottom: 18%;
+}
+.request {
+ /**   text-align:center;
+    position: relative;
+    float:right;**/
+    position: absolute;
+    right: 20%;
+    bottom: 18%; 
+   
+}
+#picture {
+   display: block;
+   height:50%;
+   width:50%;
+   margin-left:auto;
+   margin-right:auto;
+}
+.filler {
+    height:50%;
+    width:33.3%;
+}
+.picContainer {
+
+    position: relative;
+
+}
+.topText {
+    top: 5%;
+    left:48%;
+    text-align:center;
+    position: absolute;
+}

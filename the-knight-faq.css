@@ -1,0 +1,174 @@
+#head1 {
+    width:100%;
+}
+/* שורת עליונה */
+.lineup {
+  width: 100%;
+  height: 20px;
+  border-width: 10px;
+  list-style-type: none;
+  display: inline-block;
+  background: #6b648a;
+  padding: 3px 10px;
+  
+  font-weight: 200;
+  text-align:right;
+}
+.lineup1 {
+  padding: 30px;
+  /*
+  border-radius: 0 0 10px 10px;
+  */
+}
+.body 
+ {
+  height: 100%;
+}
+
+.question {
+  text-align: left;
+  font-family: 'Assistant', sans-serif;
+
+  background: #fff;
+  border-radius: 0px 5px 5px 5px;
+  float: left;
+  padding: 0 0 0 16px;
+  border-width: 0px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+  top: 0;
+  left: -10px;
+  box-shadow: inset 0 10px 10px -10px #000000;
+  overflow-x: hidden;
+  padding: 0 16px;
+  margin-bottom: 5px;
+  
+}
+.answer {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    float: right;
+    border-width: 0px 0 10px 10px;
+    border-color: transparent transparent transparent #e1ffc7;
+    top: 0;
+    right: -10px;
+    box-shadow: inset 0 10px 10px -10px #000000;
+    overflow-x: hidden;
+    padding: 0 16px;
+    margin-bottom: 5px;
+  }
+#story {
+text-align:right;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.conversation {
+  height: calc(100% - 12px);
+  position: relative;
+  background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+  z-index: 0;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.send {
+  background: #008a7c;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+/*
+.conversation {
+    height: calc(100% - 12px);
+    position: relative;
+    background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+    z-index: 0;
+  }
+  
+  .conversation ::-webkit-scrollbar {
+    transition: all .5s;
+    width: 5px;
+    height: 1px;
+    z-index: 10;
+  }
+  
+  .conversation ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .conversation ::-webkit-scrollbar-thumb {
+    background: #b3ada7;
+  }
+  
+  .conversation .conversation-container {
+    height: calc(100% - 68px);
+    box-shadow: inset 0 10px 10px -10px #000000;
+    overflow-x: hidden;
+    padding: 0 16px;
+    margin-bottom: 5px;
+  }
+  
+  .conversation .conversation-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Messages */
+  /*
+ 
+  
+  .metadata {
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 7px;
+    position: relative;
+    bottom: -4px;
+  }
+  
+  .metadata .time {
+    color: rgba(0, 0, 0, .45);
+    font-size: 11px;
+    display: inline-block;
+  }
+  
+  .metadata .tick {
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    top: 4px;
+    height: 16px;
+    width: 16px;
+  }
+  
+  .metadata .tick svg {
+    position: absolute;
+    transition: .5s ease-in-out;
+  } */
+  

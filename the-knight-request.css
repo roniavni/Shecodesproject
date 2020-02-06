@@ -1,0 +1,34 @@
+head1 {
+    width:100%;
+}
+/* שורת עליונה */
+.lineup {
+    width: 100%;
+    height: 20px;
+    border-width: 10px;
+    list-style-type: none;
+    display: inline-block;
+    background: #6b648a;
+    padding: 3px 10px;
+    
+    font-weight: 200;
+    text-align:right;
+}
+.lineup1 {
+    padding: 30px;
+    /*
+    border-radius: 0 0 10px 10px;
+    */
+}
+
+    .shapeform {
+        margin: 5px;
+        border: 1px solid #ccc;
+        display: block;
+        height:auto;
+        width:50%;
+        margin-left:auto;
+        margin-right:auto;
+        background: #e3e0e2;
+        text-align: center;
+      }

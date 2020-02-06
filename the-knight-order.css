@@ -1,0 +1,113 @@
+
+
+/* שורת עליונה */
+.lineup {
+    width: 100%;
+ /*   height: 20px; */
+    border-width: 10px;
+    list-style-type: none;
+    display: inline-block;
+    background: #6b648a;
+    padding: 3px 10px;
+    
+    font-weight: 200;
+    text-align:right;
+}
+.lineup1 {
+    padding: 30px;
+    /*
+    border-radius: 0 0 10px 10px;
+    */
+}
+.choicePanel {
+    width: 50%;
+    float: right;
+    display:block;
+}
+
+/*פאנלים*/
+.tab-panels{
+
+    display: block;
+}
+.tab-panels ul {
+    margin: 0;
+    padding: 0;
+
+    
+}
+.tab-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: #999;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    float:right;
+}
+.tab-panels ul li:hover {
+    color: #fff;
+    background: #666;
+}
+
+.tab-panels ul li.active {
+    color: #fff;
+    background: #666;
+ 
+}
+
+.tab-panels .panel {
+    display:none;
+    background: #c9c9c9;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    float:right;
+
+}
+
+.tab-panels .panel.active {
+    display:block;
+    width: 33%; 
+    float:right;
+}
+.tab-panels .panel {
+    display:none;
+    background: #c9c9c9;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    float:right; 
+    width: 33%; 
+
+}
+.content {
+    text-align: right;
+}
+/*תמונה*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left; ;
+  /*  width: 50%;*/
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 150;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .explain{
+    display:block;
+      text-align: right;
+  }
